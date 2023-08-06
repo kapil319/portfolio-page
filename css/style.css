@@ -190,7 +190,7 @@ margin-bottom: 20px;
   font-size: 1.6rem;
 }
 
-.contact address {
+.contact address a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -198,9 +198,41 @@ margin-bottom: 20px;
   height: 100%;
 }
 
+.contact address a {
+  color: var(--tertiary);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-image: linear-gradient(270deg,var(--primary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0,.25s ease-in;
+  display: inline-block;
+}
+
 .contact address a:hover {
-  background-size: 100%;
+  background-size: 100% 88%;
   color: var(--secondary);
 }
 
+.horiseon {
+  background-image: url("../images/horiseon-refactored.jpg");
+}
 
+
+.coming-soon-1 { 
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.coming-soon-2 { 
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.coming-soon-3 { 
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.coming-soon-4 { 
+  background-image: url("../images/02-portfolio-1.jpg");
+}
