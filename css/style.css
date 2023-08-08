@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* Color CSS */
+
 :root {
   --primary: rgba(68,88,119,1);
   --secondary: rgba(146,204,206,1);
@@ -9,6 +11,8 @@
   --dark: rgba(28,29,33,1);
   --light: rgba(238,238,247,1);
 }
+
+/* Main Body CSS */
 
 body {
   margin: 0;
@@ -29,6 +33,8 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Navigation Menu CSS */
 
 header {
   padding: 15px 6% 15px 0;
@@ -84,6 +90,8 @@ main {
   margin-top: 20px;
   margin-bottom: 45px;
 }
+
+/* Display Section CSS */
 
 .hero-banner {
   background: rgb(30,110,240);
@@ -179,7 +187,7 @@ margin-bottom: 20px;
 } 
 
 .flex-item:hover {
-  background-color: rgba (0,0,0,0.3);
+  background-color: rgba(0,0,0,0.3);
 }
 
 .flex-item div {
@@ -189,6 +197,8 @@ margin-bottom: 20px;
 .flex-item h3 {
   font-size: 1.6rem;
 }
+
+/* Contact Footer */
 
 .contact address a {
   display: flex;
@@ -216,10 +226,11 @@ margin-bottom: 20px;
   color: var(--secondary);
 }
 
+/* Portfolio Images CSS */
+
 .horiseon {
   background-image: url("../images/horiseon-refactored.jpg");
 }
-
 
 .coming-soon-1 { 
   background-image: url("../images/02-portfolio-1.jpg");
@@ -236,6 +247,8 @@ margin-bottom: 20px;
 .coming-soon-4 { 
   background-image: url("../images/02-portfolio-1.jpg");
 }
+
+/* Media Query CSS */
 
 @media screen and (max-width: 1000px) {
   header {
@@ -268,6 +281,7 @@ margin-bottom: 20px;
     font-size: 7vw;
   }
 }
+
 
 @media screen and (max-width: 768px){
   .flex-item,
