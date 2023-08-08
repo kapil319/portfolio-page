@@ -6,7 +6,7 @@
 
 :root {
   --primary: rgba(68,88,119,1);
-  --secondary: rgba(146,204,206,1);
+  --secondary: rgb(198 221 213);
   --tertiary: rgba(49,52,61,1);
   --dark: rgba(28,29,33,1);
   --light: rgba(238,238,247,1);
@@ -31,7 +31,7 @@ h6 {
 }
 
 p {
-  margin: 0;
+  margin: 10px;
 }
 
 /* Navigation Menu CSS */
@@ -94,7 +94,7 @@ main {
 /* Display Section CSS */
 
 .hero-banner {
-  background: rgb(30,110,240);
+  background: rgb(123 143 121);
   background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
@@ -146,6 +146,7 @@ main {
   border-right: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
+  color: var(--primary);
 }
 
 .page-section > div {
@@ -200,7 +201,7 @@ margin-bottom: 20px;
 
 /* Contact Footer */
 
-.contact address a {
+.contact address {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -219,12 +220,19 @@ margin-bottom: 20px;
   background-position: bottom;
   transition: all 0,.25s ease-in;
   display: inline-block;
+  margin: 10px;
 }
 
 .contact address a:hover {
   background-size: 100% 88%;
   color: var(--secondary);
 }
+
+.contact address a::after {
+  content: '📝';
+  display: inline-block; 
+}
+
 
 /* Portfolio Images CSS */
 
@@ -237,15 +245,15 @@ margin-bottom: 20px;
 }
 
 .coming-soon-2 { 
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 .coming-soon-3 { 
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 .coming-soon-4 { 
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 
 /* Media Query CSS */
